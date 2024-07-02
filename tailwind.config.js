@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      borderRadius: {
+        "primary-button": "5px",
+      },
       colors: {
         primary: "#1d2745",
         secondary: "#1de5d4",
